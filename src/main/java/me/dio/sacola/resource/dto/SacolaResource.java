@@ -7,7 +7,7 @@ import me.dio.sacola.model.Sacola;
 import me.dio.sacola.service.SacolaService;
 import org.springframework.web.bind.annotation.*;
 
-@Api(value="/api/sacolas", tags = {"Sacolas"})
+@Api(value="/api/sacolas", tags = {"Endpoints"})
 @RestController
 @RequestMapping("/api/sacolas")
 @RequiredArgsConstructor
